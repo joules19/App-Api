@@ -40,6 +40,22 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "FluentEmail.Core": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "FluentEmail.Razor": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "FluentEmail.Smtp": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[7.0.12, )"
@@ -47,6 +63,10 @@
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.13, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -62,6 +82,10 @@
               "target": "Package",
               "version": "[7.0.12, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Npgsql.EntityFrameworkcore.Postgresql": {
               "target": "Package",
               "version": "[7.0.11, )"
@@ -69,6 +93,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "Volo.Abp.MailKit": {
+              "target": "Package",
+              "version": "[7.4.1, )"
             }
           },
           "imports": [
